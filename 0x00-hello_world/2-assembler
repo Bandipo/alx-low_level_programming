@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$CFILE" | tr '.c' '.s'| gcc main.c -o "$(cat)"
+echo "$CFILE" | tr '.c' '.s'| gcc -S  main.c -o "$(cat)"
