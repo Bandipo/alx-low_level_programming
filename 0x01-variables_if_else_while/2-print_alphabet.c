@@ -8,9 +8,16 @@
  */
 int main(void)
 {
-	for (char ch = 'a'; ch <= 'z'; ch++)
+	char startCharacter;
+	char endCharacter;
+
+	startCharacter = 'a';
+	endCharacter = 'z';
+
+	while (startCharacter <= endCharacter)
 	{
-		putchar(ch);
+		putchar(startCharacter);
+		startCharacter++;
 	}
 	putchar('\n');
 	return (0);
