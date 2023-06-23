@@ -29,4 +29,6 @@ void print_times_table(int n);
 
 int _isupper(char c);
 
+int _isdigit(int c);
+
 #endif
