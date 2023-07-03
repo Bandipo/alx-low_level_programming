@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	long j, k;
+	long j, k, sum;
 
 	i = 0;
 	j = 1;
