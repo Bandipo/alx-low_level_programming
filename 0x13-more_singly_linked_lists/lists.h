@@ -18,10 +18,10 @@ typedef struct list_s
 } listint_t;
 
 int _strlen(const char *s);
-size_t print_listint(const list_t *h);
-size_t listint_len(const list_t *h);
-listint_t *add_nodeint(list_t **head, const char *str);
-listint_t *add_nodeint_end(list_t **head, const char *str);
+size_t print_listint(const listint_t *h);
+size_t listint_len(const listint_t *h);
+listint_t *add_nodeint(listint_t **head, const char *str);
+listint_t *add_nodeint_end(listint_t **head, const char *str);
 void free_listint(listint_t *head);
 
 #endif
