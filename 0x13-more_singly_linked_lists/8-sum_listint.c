@@ -6,7 +6,7 @@
  *
  * Return: The resulting sum.
  */
-int sum_list(listint_t *head)
+int sum_listint(listint_t *head)
 {
 	int total_sum = 0;
 	listint_t *current = head;
